@@ -1,0 +1,20 @@
+#hinh .w1{
+    max-width: 800px;
+}
+
+#hinh .w2{
+    max-width: 1200px;
+}
+
+#hinh .w3{
+    max-width: 1500px;
+}
+
+#btbChangeImage {
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
