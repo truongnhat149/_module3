@@ -1,0 +1,14 @@
+.btbClick {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 500px;
+    opacity: 1;
+}
