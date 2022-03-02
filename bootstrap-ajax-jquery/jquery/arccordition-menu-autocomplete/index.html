@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jquery UI</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
+<script src="filejs.js"></script>
+
+</head>
+
+<body>
+    <!-- gom nội dung vào khối div ngoài thứ tự từ thẻ H > div -->
+    <div id="my-accordion">
+        <h3>Tab thứ 1</h3>
+        <div>Nội dung thứ nhất</div>
+        <h3>Tab thứ 2</h3>
+        <div>Nội dung thứ 2</div>
+        <h3>Tab thứ 3</h3>
+        <div>Nội dung thứ 3</div>
+    </div>
+
+    <!-- autocomple tự động điền -->
+    <input type="text" id="auto-complete">
+
+
+    <!-- gom nội dung theo cấp bậc ul -> li -->
+    <ul id="me-menu" style="width: 150px">
+        <div>Show content</div>
+        <li>
+            <div>Menu A</div>
+            <ul>
+                <div>Menu A+</div>
+                <li>
+                    <div>Menu A++</div>
+                </li>
+            </ul>
+        </li>
+
+        <li>
+            <div>Menu B</div>
+        </li>
+
+        <li>
+            <div>Menu C</div>
+        </li>
+    </ul>
+</body>
+
+</html>
