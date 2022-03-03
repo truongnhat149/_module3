@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jquery UI</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="jquery-ui/jquery-ui.js"></script>
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+<link rel="stylesheet" href="style.css">
+<script src="filejs.js"></script>
+<script>
+    $(function() {
+        $('input').checkboxradio();
+    })
+</script>
+<style>
+    /* internal style */
+    .ui-menu-item-wrapper {
+        height: 50px;
+    } 
+
+    .avatarClass-ui-icon {
+        width: 50px;
+        height: 50px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    body {
+        /* background-image: url("photo1.jpg"); */
+
+    }
+</style>
+</head>
+
+<body>
+    <div class="widget">
+        <select name="" id="mySeclect" style="width:300px"> 
+            <option value="1" dataClass="avatarClass" dataStyle="background-image: url('photo1.jpg')">Trường</option>
+            <option value="2" dataClass="avatarClass" dataStyle="background-image: url('photo2.jpg')">Nhật</option>
+            <option value="3" dataClass="avatarClass" dataStyle="background-image: url('photo3.jpg')">CodeGym  </option>
+        </select>
+    
+        <br><br>
+        <fieldset>
+            <legend>Ví dụ radio</legend>
+            <label for="">
+                <input type="radio"  name ="city" class="myCheckboxradioClass"> Hà Nội
+            </label>
+            <label for="">
+                <input type="radio"  name ="city" class="myCheckboxradioClass"> Hồ Chí Minh
+            </label>
+            <label for="">
+                <input type="radio"  name ="city" class="myCheckboxradioClass"> Huế
+            </label>
+        </fieldset>
+
+    </div>
+</body>
+
+</html>
