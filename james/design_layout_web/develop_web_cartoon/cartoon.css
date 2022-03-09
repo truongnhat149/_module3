@@ -26,7 +26,7 @@ nav {
 }
 
 #left-content {
-    display: inline;
+    display: inline-block;
     float: left;
 }
 
@@ -35,5 +35,6 @@ nav {
 }
 
 #footer p {
+    display: block;
     text-align:  center;
 }

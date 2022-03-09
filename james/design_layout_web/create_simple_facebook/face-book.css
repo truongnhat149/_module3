@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    margin: 20px;
+}
+
+header a {
+    text-decoration: none;
+    
+}
+section {
+    margin: 20px;
+    
+}
+footer p {
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+}
+

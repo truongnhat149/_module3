@@ -1,4 +1,42 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+}
+header, footer {
+    display: block;
+    text-align: center;
+    border: 1px solid red;
+    color: white;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 2px solid rebeccapurple;
+    margin: 10px;
+}
+nav {
+    border: 1px solid black;
+    margin: 20px;
+
+}
+
+section {
+    margin: 5px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+article {
+    margin: 5px;
+    padding: 10px;
+}
+footer {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+/* body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 0.9rem;
 }
@@ -28,4 +66,4 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 5px;
-}
+} */

@@ -5,7 +5,7 @@ body {
 
 #main {
     width: 100%;
-    padding : 0;
+    padding: 0;
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,8 +15,9 @@ body {
     background-color: rgb(68, 66, 66);
     margin-bottom: 5px;
 }
+
 #nav {
-    display: inline;
+    display: flex;
 }
 
 #head-link {
@@ -34,10 +35,14 @@ body {
     margin-left: 5px;
     height: 100%;
     width: 100px;
-    border: none;
     background-color: grey;
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
+}
+
+#btn-head-link:hover {
+    cursor: pointer;
+    background-color: red;
 }
 
 #left {
@@ -46,11 +51,21 @@ body {
     float: left;
     background-color: #6b7a6b;
     margin-bottom: 5px;
-    align-content: center;
+    text-align: center;
+}
+
+#left a {
+    text-decoration: none;
+    color: wheat;
+}
+
+#left a:hover {
+    cursor: pointer;
+    background-color: brown;
 }
 
 #content {
-    width: 79.4%;
+    width: 78.4%;
     min-height: 400px;
     float: left;
     background-color: wheat;
@@ -76,10 +91,15 @@ body {
     align-content: center;
 }
 
+#btn_ADS:hover {
+    cursor: pointer;
+    background-color: blue;
+}
+
 #footer {
     height: 50px;
     clear: both;
     background-color: #535358;
     text-align: center;
-    align-content:center;
+    align-content: center;
 }

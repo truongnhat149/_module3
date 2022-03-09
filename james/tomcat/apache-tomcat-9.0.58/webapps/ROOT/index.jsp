@@ -1,19 +1,17 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Truong
-  Date: 3/5/2022
-  Time: 8:04 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>Trang chủ</title>
-  </head>
-  <body>
-  <h1>Mời click vào đây</h1>
-  <h2>
-    <a href="/user/list.jsp">Click Here</a>
-  </h2>
-  </body>
+<head>
+  <title>Currency Converter</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h2>Currency Converter</h2>
+<form action="/converter" method="post">
+  <label>Rate: </label><br/>
+  <input type="text" name="rate" placeholder="RATE" value="22000"/><br/>
+  <label>USD: </label><br/>
+  <input type="text" name="usd" placeholder="USD" value="0"/><br/>
+  <input type = "submit" id = "submit" value = "Converter"/>
+</form>
+</body>
 </html>
