@@ -1,12 +1,8 @@
-<%@ page import="java.lang.reflect.Array" %><%--
-  Created by IntelliJ IDEA.
-  User: vothao
-  Date: 31/10/2021
-  Time: 22:08
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <!DOCTYPE html>
 <html>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -50,7 +46,6 @@
     </tbody>
   </c:forEach>
 </table>
-</body>
-</html>
+
 </body>
 </html>
