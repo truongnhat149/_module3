@@ -10,6 +10,22 @@ public interface IUserDAO {
     List<User> selectAllUsers();
     boolean deleteUser(int id) throws SQLException;
     boolean updateUser(User user) throws SQLException;
+
+    // transaction
     User getUserById(int id);
     void insertUserStore(User user) throws SQLException;
+
+    // thêm mới user = transaction
+    void addUserTransaction(User user, int[] permision);
+
+    void insertUpdateWithoutTransaction();
+
+    // thêm mới bằng transaction
+    void insertUpdateUseTransaction();
+
+    // hiển thị danh sách = store procedure
+    List<User> showUser();
+
+    // sửa thông tin user = procedure
+    boolean updateUserSP() throws ;
 }
