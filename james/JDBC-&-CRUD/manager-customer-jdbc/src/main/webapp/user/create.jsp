@@ -19,6 +19,9 @@
     <h2>
         <a href="users?action=users">List All Users</a>
     </h2>
+    <c:if test='${requestScope["message"]}'>
+        <span class="message">${requestScope["message"]}</span>
+    </c:if>
 </center>
 <div class="div-table">
     <caption>

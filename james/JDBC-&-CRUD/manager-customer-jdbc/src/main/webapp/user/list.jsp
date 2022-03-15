@@ -13,6 +13,9 @@
     <h2>
         <a href="/users?action=create">Add New User</a>
     </h2>
+    <c:if test='${requestScope["message"]}'>
+        <span class="message">${requestScope["message"]}</span>
+    </c:if>
 </center>
 <div align="center">
     <caption><h2>List of Users</h2></caption>

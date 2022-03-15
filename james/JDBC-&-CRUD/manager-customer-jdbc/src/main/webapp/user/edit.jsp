@@ -13,6 +13,9 @@
     <h2>
         <a href="users?action=users">List All Users</a>
     </h2>
+    <c:if test='${requestScope["message"]}'>
+        <span class="message">${requestScope["message"]}</span>
+    </c:if>
 </center>
 <div align="center">
     <caption>
@@ -23,7 +26,7 @@
     <form method="post">
         <table class="table table-hover " border="1" cellpadding="5">
             <c:if test="${user != null}">
-                <input type="hidden" name="id" value="<c:out value='${user.id}' />"/>
+                <input type="text" disabled size="45" name="id" value="<c:out value='${user.id}' />"/>
             </c:if>
             <tr class="table-dark">
                 <th>User Name:</th>
