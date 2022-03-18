@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Tabs</title>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#tabs").tabs();
+        });
+
+        $(function () {
+            $("#menu").menu();
+        });
+    </script>
+    <style>
+        .ui-menu {
+            width: 150px;
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+    <style>
+        h1 {
+            background-image: url(https://img.freepik.com/free-vector/glitch-error-404-page_23-2148105404.jpg);
+            background-repeat: no-repeat;
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="tabs">
+        <ul>
+            <li><a href="#tabs-1">Account</a></li>
+            <li><a href="#tabs-2">Product</a></li>
+            <li><a href="#tabs-3">Order</a></li>
+        </ul>
+        <div id="tabs-1">
+            <ul id="menu">
+                <li>
+                    <div>
+                        <a href="#">Tạo user</a>
+                    </div>
+                </li>
+                <li>
+                   <div>
+                    <a href="#">Xem list user</a>
+                   </div>
+                </li>
+            </ul>
+        </div>
+        <div id="tabs-2">
+            <a href="#">Test - 1</a>
+        </div>
+        <div id="tabs-3">
+            <a href="#">Test - 2</a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

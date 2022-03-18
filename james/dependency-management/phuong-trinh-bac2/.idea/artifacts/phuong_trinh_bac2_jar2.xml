@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="phuong-trinh-bac2:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/phuong_trinh_bac2_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="phuong-trinh-bac2.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="phuong-trinh-bac2" />
+      </element>
+      <element id="library" level="project" name="pt-bac2" />
+    </root>
+  </artifact>
+</component>
